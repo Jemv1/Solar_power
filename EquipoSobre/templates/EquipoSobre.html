@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Acerca del equipo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+   {% load staticfiles %}
+   <link rel="stylesheet" href="{% static 'index.css' %}">
+   <link rel="icon"  href="{% static 'solar.ico' %}" />
+  </head>
+  <body>
+
+ <!--Navbar------------------------------------------------------------------------------->
+  <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="/">Home
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/simulacion">Simular</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Registrar
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Accede
+                  </a>
+              </li>
+
+          </ul>
+          <!-- Links -->
+      </div>
+      <!-- Collapsible content -->
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">Solar Power</a>
+
+  </nav>
+  <!--/.Navbar----------------------------------------->
+
+<!--<div class=row>
+  <br><br>
+  <div class="col-sm-3 less-side">
+    <img src="static/jona.jpg" alt="Imagen" title="Jonathan Marquez" class="alignleft size-full wp-image-2741"
+    width="250" height="250">
+    <br>
+    <p>Jonathan Marquez<br/>Estudiante de Ingenieria de Sistemas Informaticos. Analista, programador y diseñador.</p>
+</div>
+
+  <br><br>
+  <div class="col-sm-3 less-side">
+    <img src="static/marco.jpg" alt="Imagen" title="Marco Flores" class="alignleft size-full wp-image-2741"
+    width="250" height="250">
+    <br>
+    <p>Marco Flores<br/>Estudiante de Ingenieria de Sistemas Informaticos. Analista, programador y diseñador.</p>
+</div>
+
+  <br><br>
+  <div class="col-sm-3 less-side">
+    <img src="static/frank.jpg" alt="Imagen" title="Francisco Navas" class="alignleft size-full wp-image-2741"
+    width="250" height="250">
+    <br>
+    <p>Francisco Navas<br/>Estudiante de Ingenieria de Sistemas Informaticos. Analista, programador y diseñador.</p>
+</div>
+
+  <br><br>
+  <div class="col-sm-2 less-side">
+    <img src="static/alex.jpg" alt="Imagen" title="Alex Villeda" class="alignleft size-full wp-image-2741"
+    width="250" height="250">
+    <br>
+    <p>Alex Villeda<br/>Estudiante de Ingenieria de Sistemas Informaticos. Analista, programador y diseñador.</p>
+</div>-->
+
+<!-- Page Heading -->
+      <h1 class="my-4">Nuestro Equipo
+        <small>Quiénes están detrás de este proyecto</small>
+      </h1>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="static/jona.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Jonathan Marquez</a>
+              </h4>
+              <p class="card-text">Estudiante de Ingenieria de Sistemas Informaticos. Analista, programador y diseñador.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="static/marco.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Marco Flores</a>
+              </h4>
+              <p class="card-text">Estudiante de Ingenieria de Sistemas Informaticos. Analista, programador y diseñador.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="static/frank.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Frank Navas</a>
+              </h4>
+              <p class="card-text">Estudiante de Ingenieria de Sistemas Informaticos. Analista, programador y diseñador.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="static/alex.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Alex Villeda</a>
+              </h4>
+              <p class="card-text">Estudiante de Ingenieria de Sistemas Informaticos. Analista, programador y diseñador.</p>
+            </div>
+          </div>
+</div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+  </body>
+</html>
