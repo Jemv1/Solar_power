@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bienvenidos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+    {% load staticfiles %}
+   <link rel="stylesheet" href="{% static 'index.css' %}">
+   <link rel="icon"  href="{% static 'solar.ico' %}" />
+  </head>
+  <body>
+
+<!--Navbar------------------------------------------------------------------------------->
+  <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="/">Home
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/simulacion">Simular</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Registrar
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Accede
+                  </a>
+              </li>
+
+          </ul>
+          <!-- Links -->
+      </div>
+
+      <!-- Collapsible content -->
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">Solar Power</a>
+  </nav>
+
+  <div class ="container-fluid text-justify">
+      <br><br>
+        <h1 class="text-primary">Energia Solar Fotovoltaica con Alta Concentracion</h1>
+        
+        <br><br>
+
+       
+        <h2 class="text-info">Nuestra app</h2>
+        <p class="">
+          La energía solar es una fuente de luz que se aprovecha diariamente en diferentes sistemas y procesos, debido a esto hay diferentes tecnologías que han ido evolucionando en la actualidad que se puede utilizar como energía renovable.
+        </p>
+        <p>A traves de esta aplicacion usted podra simular </p>
+
+        <h2 class="text-info">Prueba nuestro simulador</h2>
+        <div class="row">
+
+          <div class="col-sm-6 less-side">
+            <img  src="static/espejo.png" alt="Imagen" title="espejo con celda fotovoltaica" class="alignleft size-full wp-image-2741" width="490" height="307">
+          </div>
+          
+          <div class="col-sm-6 text-justify">
+            <p class="">
+              A traves de nuestro simulador podras probar si las dimenciones del espejo y celda fotovoltaica de tu diseño para producir energia fotovoltaica de alta concentracion son correctos o si en cambio necesitas cambiar el diseño de tu espejo para lograr el maximo provecho de tu celda fotovoltaica
+            </p>
+            <p class="">
+              Célula fotovoltaica
+Situada en el eje focal de los reflectantes o en el punto de concentración de las lentes. Es el elemento encargado de transformar la luz solar en electricidad. Para esta tecnología la célula fotovoltaica está compuesta de dos o tres capas de diferentes materiales (por ejemplo, GaInP/GaInAs/Ge) optimizados cada uno de ellos para transformar en electricidad una parte del espectro electromagnético de la luz solar. El resultado es que la conjunción de las tres capas realiza un aprovechamiento más efectivo de la energía solar, traduciéndose en un mayor porcentaje de conversión solar.
+
+            </p>
+          </div>
+        </div>
+
+        </div>
+
+
+
+  </div>
+<br><br>
+  <footer>s
+    <p>HDP115 - 2018</p>
+  </footer>
+
+  <!--/.Navbar----------------------------------------->
+
+
+  
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+  </body>
+</html>
